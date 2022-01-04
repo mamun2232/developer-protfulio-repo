@@ -1,0 +1,92 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+.top-banner{
+    display: flex;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+
+}
+h1{
+    font-size: 50px;
+}
+.haif-with{
+    
+    width: 50%;
+    padding-left: 5%;
+}
+.haif-with img{
+    max-width: 80%;
+}
+.color{
+    color: orange;
+}
+.haif-with p{
+    color: gray;
+}
+.button{
+    background-image: linear-gradient(orange, yellow);
+    text-decoration: none;
+    padding: 5px 15px;
+    color: black;
+    border-radius: 5px;
+        
+}
+.dream-banner{
+    display: flex;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.expreance-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+    h2{
+        font-size: 40px;
+    }
+
+.exprance-item{
+    display: flex;
+   
+}
+.babt-item{
+    width: 40%;
+    
+    
+}
+.web-item{
+    width: 40%;
+   
+}
+.item{
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 20px gray;
+    padding-left: 2%;
+    border-radius: 10px;
+}
+#first-border{
+    border-left: 7px solid;
+    border-image: linear-gradient( orange , yellow);
+    border-image-slice: 1;
+
+}
+#segend-border{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(28, 13, 240), rgb(214, 110, 13));
+    border-image-slice: 1;
+
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+    
